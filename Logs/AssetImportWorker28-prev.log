@@ -1,0 +1,614 @@
+Using pre-set license
+Built from '6000.1/staging' branch; Version is '6000.1.5f1 (923722cbbcfc) revision 9582370'; Using compiler version '194234433'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26100) 64bit Core' Language: 'en' Physical Memory: 32673 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+Date: 2025-06-16T18:56:58Z
+
+COMMAND LINE ARGUMENTS:
+E:\Unity\6000.1.5f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker28
+-projectPath
+E:/unityGames/Shooter RPG
+-logFile
+Logs/AssetImportWorker28.log
+-srvPort
+50274
+-job-worker-count
+7
+-background-job-worker-count
+8
+-gc-helper-count
+1
+-name
+AssetImport
+Successfully changed project path to: E:/unityGames/Shooter RPG
+E:/unityGames/Shooter RPG
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [22372]  Target information:
+
+Player connection [22372]  * "[IP] 192.168.2.101 [Port] 0 [Flags] 2 [Guid] 1110447853 [EditorId] 1110447853 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-N3PNBGS) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [22372] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [22372] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 7
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 2.71 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 6000.1.5f1 (923722cbbcfc)
+[Subsystems] Discovering subsystems at path E:/Unity/6000.1.5f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path E:/unityGames/Shooter RPG/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:         Direct3D 12 [level 12.1]
+    Renderer:        NVIDIA GeForce RTX 2060 (ID=0x1f08)
+    Vendor:          NVIDIA
+    VRAM:            5954 MB
+    App VRAM Budget: 5186 MB
+    Driver:          32.0.15.7216
+Initialize mono
+Mono path[0] = 'E:/Unity/6000.1.5f1/Editor/Data/Managed'
+Mono path[1] = 'E:/Unity/6000.1.5f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'E:/Unity/6000.1.5f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56284
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: E:/Unity/6000.1.5f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001595 seconds.
+- Loaded All Assemblies, in  0.718 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.598 seconds
+Domain Reload Profiling: 1316ms
+	BeginReloadAssembly (252ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (59ms)
+	RebuildNativeTypeToScriptingClass (17ms)
+	initialDomainReloadingComplete (57ms)
+	LoadAllAssembliesAndSetupDomain (332ms)
+		LoadAssemblies (251ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (327ms)
+			TypeCache.Refresh (325ms)
+				TypeCache.ScanAssembly (301ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (598ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (512ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (65ms)
+			SetLoadedEditorAssemblies (6ms)
+			BeforeProcessingInitializeOnLoad (107ms)
+			ProcessInitializeOnLoadAttributes (256ms)
+			ProcessInitializeOnLoadMethodAttributes (79ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.046 seconds
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 0.90 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+[MODES] Loading mode Default (0) for mode-current-id-Shooter RPG
+Package Manager log level set to [2]
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.064 seconds
+Domain Reload Profiling: 2108ms
+	BeginReloadAssembly (249ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (11ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (36ms)
+	RebuildCommonClasses (51ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (47ms)
+	LoadAllAssembliesAndSetupDomain (684ms)
+		LoadAssemblies (462ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (378ms)
+			TypeCache.Refresh (297ms)
+				TypeCache.ScanAssembly (279ms)
+			BuildScriptInfoCaches (63ms)
+			ResolveRequiredComponents (14ms)
+	FinalizeReload (1064ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (819ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (185ms)
+			ProcessInitializeOnLoadAttributes (562ms)
+			ProcessInitializeOnLoadMethodAttributes (63ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
+Refreshing native plugins compatible for Editor in 1.32 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 258 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6592 unused Assets / (6.9 MB). Loaded Objects now: 7318.
+Memory consumption went from 181.1 MB to 174.2 MB.
+Total: 11.913300 ms (FindLiveObjects: 0.967400 ms CreateObjectMapping: 1.433300 ms MarkObjects: 6.098500 ms  DeleteObjects: 3.412900 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 14626.074503 seconds.
+  path: Assets/Hovl Studio/Magic effects pack/Prefabs/Sparks/Sparks flashing white.prefab
+  artifactKey: Guid(45c1a9f607b571349b0186f437fb0702) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Hovl Studio/Magic effects pack/Prefabs/Sparks/Sparks flashing white.prefab using Guid(45c1a9f607b571349b0186f437fb0702) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6c3e8edd2da781591e7c1976ae87c817') in 0.3901278 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.054982 seconds.
+  path: Assets/Hovl Studio/Magic effects pack/Prefabs/AoE effects/AoE slash orange.prefab
+  artifactKey: Guid(1336648bc1d8baf46a4515860950c9d4) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Hovl Studio/Magic effects pack/Prefabs/AoE effects/AoE slash orange.prefab using Guid(1336648bc1d8baf46a4515860950c9d4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c84f0cdf8f1af14153e6bd2248568dbb') in 0.0531227 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 27
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.391420 seconds.
+  path: Assets/Hovl Studio/Magic effects pack/Materials/FlashFree2.mat
+  artifactKey: Guid(8d24eed57b7238948b376d5f465fe635) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Hovl Studio/Magic effects pack/Materials/FlashFree2.mat using Guid(8d24eed57b7238948b376d5f465fe635) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3e6bc451d1409d40d333e027c27b8268') in 0.0319974 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.423279 seconds.
+  path: Assets/Hovl Studio/Magic effects pack/Prefabs/AoE effects/Snow AOE.prefab
+  artifactKey: Guid(05ce920d629922a4eb4795ef7494ce5c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Hovl Studio/Magic effects pack/Prefabs/AoE effects/Snow AOE.prefab using Guid(05ce920d629922a4eb4795ef7494ce5c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '612f568ae83fc411511e4717cd999b86') in 0.031138 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 36
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.424624 seconds.
+  path: Assets/Hovl Studio/Magic effects pack/Textures/FlashFree1.png
+  artifactKey: Guid(f87080f1095d1914a8a20d4cb8b07e15) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Hovl Studio/Magic effects pack/Textures/FlashFree1.png using Guid(f87080f1095d1914a8a20d4cb8b07e15) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4bec90511a06e143c094200c9161ddd4') in 0.0520507 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.392895 seconds.
+  path: Assets/Hovl Studio/Magic effects pack/Materials/Circle.mat
+  artifactKey: Guid(4bab0f95134663b4c9c3dd73939c0ff1) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Hovl Studio/Magic effects pack/Materials/Circle.mat using Guid(4bab0f95134663b4c9c3dd73939c0ff1) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4b0e0bae8d976d93ee38a832e8b76480') in 0.0121905 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.446336 seconds.
+  path: Assets/Hovl Studio/Magic effects pack/Materials/Smoke26.mat
+  artifactKey: Guid(616a777eb757ff14c82a79feeb35d9b1) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Hovl Studio/Magic effects pack/Materials/Smoke26.mat using Guid(616a777eb757ff14c82a79feeb35d9b1) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9d7d150351798d7c7a2502fd18fa7d5b') in 0.0107568 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.456558 seconds.
+  path: Assets/Hovl Studio/Magic effects pack/Prefabs/Character auras/Healing.prefab
+  artifactKey: Guid(1245b8d2997d5b34fb1637be70a7eb05) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Hovl Studio/Magic effects pack/Prefabs/Character auras/Healing.prefab using Guid(1245b8d2997d5b34fb1637be70a7eb05) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7897e1755fbbae5e71a871697bd77f0f') in 0.037421 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.426240 seconds.
+  path: Assets/Scenes/SampleScene/Global Volume Profile.asset
+  artifactKey: Guid(b94f1d63434481c4d9282bd75d152561) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scenes/SampleScene/Global Volume Profile.asset using Guid(b94f1d63434481c4d9282bd75d152561) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e15de330d5dcc93f48f4f5964d53e2c9') in 0.0144699 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Hovl Studio/Magic effects pack/Prefabs/Sparks/Sparks green.prefab
+  artifactKey: Guid(324fc9687c94a5f4585d7728801af43d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Hovl Studio/Magic effects pack/Prefabs/Sparks/Sparks green.prefab using Guid(324fc9687c94a5f4585d7728801af43d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'eeb4a431fac8b874068c3afc9dc9de49') in 0.0295935 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Hovl Studio/Magic effects pack/Textures/Crack.png
+  artifactKey: Guid(df140764cd277ab4591e380324386729) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Hovl Studio/Magic effects pack/Textures/Crack.png using Guid(df140764cd277ab4591e380324386729) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '57d8a661956e9eecc9036d63035f0ba1') in 0.0199097 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Hovl Studio/Magic effects pack/Prefabs/Portals/Portal blue.prefab
+  artifactKey: Guid(45e0f06c750176947862c10346226439) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Hovl Studio/Magic effects pack/Prefabs/Portals/Portal blue.prefab using Guid(45e0f06c750176947862c10346226439) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '952db8fe2c218fdd160096f46925c31f') in 0.0368372 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 19
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Hovl Studio/Magic effects pack/Prefabs/Magic circles/Freeze circle.prefab
+  artifactKey: Guid(0e5709a7ddb77924090c112cf73bb98a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Hovl Studio/Magic effects pack/Prefabs/Magic circles/Freeze circle.prefab using Guid(0e5709a7ddb77924090c112cf73bb98a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f1a6eb4e9703d588b43e1a990e1e6378') in 0.0366528 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 25
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Hovl Studio/Magic effects pack/Materials/MagicCircle2.mat
+  artifactKey: Guid(b56ee68f36d76a648a742b6874f4d4a4) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Hovl Studio/Magic effects pack/Materials/MagicCircle2.mat using Guid(b56ee68f36d76a648a742b6874f4d4a4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e0c12c8cbc9773752a683b6910aa5a63') in 0.013477 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Hovl Studio/Magic effects pack/Prefabs/Hits and explosions/Love hit.prefab
+  artifactKey: Guid(356cf4dca1465b54fabbb8cd9b1cd190) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Hovl Studio/Magic effects pack/Prefabs/Hits and explosions/Love hit.prefab using Guid(356cf4dca1465b54fabbb8cd9b1cd190) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '68d974296192be0c014c544b4acb6c25') in 0.0343834 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Hovl Studio/Magic effects pack/Materials/Gradient2.mat
+  artifactKey: Guid(60b5f02ed06fd6c44a405760cd19e59a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Hovl Studio/Magic effects pack/Materials/Gradient2.mat using Guid(60b5f02ed06fd6c44a405760cd19e59a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '838370ff9108a49aba2cbf175cce2aad') in 0.0120599 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Hovl Studio/Magic effects pack/Materials/SmokeFree1.mat
+  artifactKey: Guid(ea6dde5ed1a02aa43828aad40f3f7974) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Hovl Studio/Magic effects pack/Materials/SmokeFree1.mat using Guid(ea6dde5ed1a02aa43828aad40f3f7974) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'aab6f78c31b4408888f8eeaed73065c6') in 0.0159717 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Hovl Studio/Magic effects pack/Models/Crystal1.fbx
+  artifactKey: Guid(dd7028f27d1d4524f8624c129112b51f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Hovl Studio/Magic effects pack/Models/Crystal1.fbx using Guid(dd7028f27d1d4524f8624c129112b51f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '267bd30e909c19ee72852dfa851b3ba0') in 0.035479 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Hovl Studio/Magic effects pack/Prefabs/AoE effects/Meteors AOE.prefab
+  artifactKey: Guid(3355f6bfa6db8b24281b827de929694c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Hovl Studio/Magic effects pack/Prefabs/AoE effects/Meteors AOE.prefab using Guid(3355f6bfa6db8b24281b827de929694c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '373290339f63233d293e23ed07dc8f28') in 0.0421051 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 37
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Hovl Studio/Magic effects pack/Textures/Concrete slab_MetallicSmoothness.png
+  artifactKey: Guid(a685c8f461a651a46a2631ea3decafae) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Hovl Studio/Magic effects pack/Textures/Concrete slab_MetallicSmoothness.png using Guid(a685c8f461a651a46a2631ea3decafae) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '998d7c4f044a77df83072d76546882d9') in 0.0200143 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Hovl Studio/Magic effects pack/Materials/DistortionPoint.mat
+  artifactKey: Guid(fe8d615cbaec71545b42f9163243b02d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Hovl Studio/Magic effects pack/Materials/DistortionPoint.mat using Guid(fe8d615cbaec71545b42f9163243b02d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5431033e5845b1e4b83d74b89304f47a') in 0.0126228 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Hovl Studio/Magic effects pack/Prefabs/Sparks/Sparks explode yellow.prefab
+  artifactKey: Guid(c483142edbf33dc4d9014c13724a0175) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Hovl Studio/Magic effects pack/Prefabs/Sparks/Sparks explode yellow.prefab using Guid(c483142edbf33dc4d9014c13724a0175) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1e6513a468054fb7c8938ada136e9892') in 0.029397 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Hovl Studio/Magic effects pack/Prefabs/Sparks/Sparks explode white.prefab
+  artifactKey: Guid(830e92a3f95c4b04caf8edd648aed9bd) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Hovl Studio/Magic effects pack/Prefabs/Sparks/Sparks explode white.prefab using Guid(830e92a3f95c4b04caf8edd648aed9bd) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b29f3966dc4bf1ea7b4a59961aabf97d') in 0.033284 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Hovl Studio/Magic effects pack/Materials/Circle2.mat
+  artifactKey: Guid(8fce5540653d6d8439e52364661e10c9) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Hovl Studio/Magic effects pack/Materials/Circle2.mat using Guid(8fce5540653d6d8439e52364661e10c9) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '544d6976b354fa1622165e960b729499') in 0.0129372 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Hovl Studio/Magic effects pack/Materials/Flare.mat
+  artifactKey: Guid(818e127314f46c844a3b31d893dcfe6a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Hovl Studio/Magic effects pack/Materials/Flare.mat using Guid(818e127314f46c844a3b31d893dcfe6a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ccd7bfdc01dcd93dc433c4f775d8a8e4') in 0.0129181 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Hovl Studio/Magic effects pack/Materials/FlashFree1.mat
+  artifactKey: Guid(632245de9bfd19f48985ddb73289a62f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Hovl Studio/Magic effects pack/Materials/FlashFree1.mat using Guid(632245de9bfd19f48985ddb73289a62f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '91a2a9971bb5211889dd0db3dc8787e2') in 0.0124375 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Hovl Studio/Magic effects pack/Textures/Flare.png
+  artifactKey: Guid(96a713cc4a0aa464caab5d8fad5911e5) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Hovl Studio/Magic effects pack/Textures/Flare.png using Guid(96a713cc4a0aa464caab5d8fad5911e5) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '336af548d9341ccd4b2dbdafef773993') in 0.0179597 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Hovl Studio/Magic effects pack/Textures/Smoke26.png
+  artifactKey: Guid(08b3912bdc0a5ed4d9a27125425a97f4) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Hovl Studio/Magic effects pack/Textures/Smoke26.png using Guid(08b3912bdc0a5ed4d9a27125425a97f4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2036ce083c47d24c495a23eb5c2b4a1b') in 0.0198528 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Hovl Studio/Magic effects pack/Materials/Point.mat
+  artifactKey: Guid(e546d2d7171981b468cf29388d902e99) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Hovl Studio/Magic effects pack/Materials/Point.mat using Guid(e546d2d7171981b468cf29388d902e99) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5566ce11e0bf61b9e0833eeb60ac5f48') in 0.0126526 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Hovl Studio/Magic effects pack/Textures/Crystal1_MS.png
+  artifactKey: Guid(c314db431cfb25c489f6895c9df5682c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Hovl Studio/Magic effects pack/Textures/Crystal1_MS.png using Guid(c314db431cfb25c489f6895c9df5682c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5b38041dcffc4004aff7225aa3382e64') in 0.0173282 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Hovl Studio/Magic effects pack/Prefabs/Smoke effects/Dust puff.prefab
+  artifactKey: Guid(803ecf87f61d9fb4f84ba6319ba95c9c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Hovl Studio/Magic effects pack/Prefabs/Smoke effects/Dust puff.prefab using Guid(803ecf87f61d9fb4f84ba6319ba95c9c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '72af03f8a6d3ef8071c5d0b821aeb334') in 0.0336778 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Hovl Studio/Magic effects pack/Prefabs/Magic circles/Magic circle 2.prefab
+  artifactKey: Guid(48c5715f9603c3842a353516a8baefbb) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Hovl Studio/Magic effects pack/Prefabs/Magic circles/Magic circle 2.prefab using Guid(48c5715f9603c3842a353516a8baefbb) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '53020bc3e0b619d60a6dc59ad5e0bcf8') in 0.0424334 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 25
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Hovl Studio/Magic effects pack/Textures/FlashFree3.png
+  artifactKey: Guid(b80e2bf2e14ae37469c6a566da0c8c18) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Hovl Studio/Magic effects pack/Textures/FlashFree3.png using Guid(b80e2bf2e14ae37469c6a566da0c8c18) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f6541e36e7b2ad95f62c1841f3f068eb') in 0.0180735 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Hovl Studio/Magic effects pack/Textures/ProjectileFree1.png
+  artifactKey: Guid(8428dffedee005843a727b05c64cb76b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Hovl Studio/Magic effects pack/Textures/ProjectileFree1.png using Guid(8428dffedee005843a727b05c64cb76b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2a011be134750d70854560f3713a8529') in 0.0286378 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Hovl Studio/Magic effects pack/Prefabs/Sparks/Sparks white.prefab
+  artifactKey: Guid(010733280c7cd0b4294a9867b26a13f4) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Hovl Studio/Magic effects pack/Prefabs/Sparks/Sparks white.prefab using Guid(010733280c7cd0b4294a9867b26a13f4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '944d599df24ef55d94fe70ee95a7728e') in 0.0271732 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Hovl Studio/Magic effects pack/Models/Torus1.fbx
+  artifactKey: Guid(3f7bddc7b6a3f39438110f37b7ed9cd5) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Hovl Studio/Magic effects pack/Models/Torus1.fbx using Guid(3f7bddc7b6a3f39438110f37b7ed9cd5) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '49ba48ffbe700c414a0785698dac061f') in 0.020843 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Hovl Studio/Magic effects pack/Prefabs/AoE effects/Smoke AOE explosion.prefab
+  artifactKey: Guid(9de2fa19f0390d44491264d9cab8cec5) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Hovl Studio/Magic effects pack/Prefabs/AoE effects/Smoke AOE explosion.prefab using Guid(9de2fa19f0390d44491264d9cab8cec5) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c84d64e2f90a1fe71a86073f2eaa7a4c') in 0.045995 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 23
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Hovl Studio/Magic effects pack/Textures/Concrete slab_Height.png
+  artifactKey: Guid(db368c1c85b12fe48aba6cc9bcd41f43) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Hovl Studio/Magic effects pack/Textures/Concrete slab_Height.png using Guid(db368c1c85b12fe48aba6cc9bcd41f43) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '62a0f849d5380b0dab355b21cac209f8') in 0.0271364 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Hovl Studio/Magic effects pack/Prefabs/Hits and explosions/Explosion.prefab
+  artifactKey: Guid(8eb503696b886e04faff8fc0f480d473) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Hovl Studio/Magic effects pack/Prefabs/Hits and explosions/Explosion.prefab using Guid(8eb503696b886e04faff8fc0f480d473) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '500a17a0faa9923a6732ac5763ec1d67') in 0.0580433 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 19
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Hovl Studio/Magic effects pack/Materials/Heart.mat
+  artifactKey: Guid(e97a79db1dd66ad4d8f70932abe94b73) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Hovl Studio/Magic effects pack/Materials/Heart.mat using Guid(e97a79db1dd66ad4d8f70932abe94b73) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '635b9dc764b68cc760d11c8074181427') in 0.0117578 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Hovl Studio/Magic effects pack/Materials/Flash.mat
+  artifactKey: Guid(db3488de871721d4f83250ff2af716b7) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Hovl Studio/Magic effects pack/Materials/Flash.mat using Guid(db3488de871721d4f83250ff2af716b7) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e318493d74916a0b376a6574b3abd8a7') in 0.0134444 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Hovl Studio/Magic effects pack/Prefabs/Slash effects/Charge slash purple.prefab
+  artifactKey: Guid(df9374346b76e444dbbb2b019de4da25) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Hovl Studio/Magic effects pack/Prefabs/Slash effects/Charge slash purple.prefab using Guid(df9374346b76e444dbbb2b019de4da25) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b06002b6952a05c46141c1bced7bc8a5') in 0.0432458 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 28
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Hovl Studio/Magic effects pack/Prefabs/Hits and explosions/Green hit.prefab
+  artifactKey: Guid(3138a83bedbd6ad4481ba0b061da2eb6) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Hovl Studio/Magic effects pack/Prefabs/Hits and explosions/Green hit.prefab using Guid(3138a83bedbd6ad4481ba0b061da2eb6) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6ab6be0c195c4e4d7a8c5116f667cf8c') in 0.0392231 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 19
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Hovl Studio/Magic effects pack/Materials/Trail67.mat
+  artifactKey: Guid(228fc1317f61ac4408d84a68ea9822d3) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Hovl Studio/Magic effects pack/Materials/Trail67.mat using Guid(228fc1317f61ac4408d84a68ea9822d3) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '989fa63543637824b8c46959e1067bcb') in 0.0138974 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Hovl Studio/Magic effects pack/Prefabs/Environment/Crystal effect red.prefab
+  artifactKey: Guid(8c49b35febea4514b87b37f643064ed4) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Hovl Studio/Magic effects pack/Prefabs/Environment/Crystal effect red.prefab using Guid(8c49b35febea4514b87b37f643064ed4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '551faf67f996f17258218bd72f336072') in 0.0424281 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Hovl Studio/Magic effects pack/Textures/Concrete slab.png
+  artifactKey: Guid(1b13dc101cf2ac7418019fd776161658) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Hovl Studio/Magic effects pack/Textures/Concrete slab.png using Guid(1b13dc101cf2ac7418019fd776161658) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '43ea0a96d30a0ed6416e71c59c584ce5') in 0.0191124 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Hovl Studio/Magic effects pack/Prefabs/Smoke effects/Smoke ground.prefab
+  artifactKey: Guid(253510ecf8d65454aa4d811cffb5a8f8) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Hovl Studio/Magic effects pack/Prefabs/Smoke effects/Smoke ground.prefab using Guid(253510ecf8d65454aa4d811cffb5a8f8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '467f9d3ee21827ef6624330146b00523') in 0.0380704 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Hovl Studio/Magic effects pack/Prefabs/Portals/Portal yellow.prefab
+  artifactKey: Guid(5ad33d58a66ab154a89c9e88255601e5) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Hovl Studio/Magic effects pack/Prefabs/Portals/Portal yellow.prefab using Guid(5ad33d58a66ab154a89c9e88255601e5) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4e834455e3ddc5945bf3e5b0e47e47e8') in 0.0388649 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 19
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Hovl Studio/Magic effects pack/Prefabs/Sparks/Sparks explode pink.prefab
+  artifactKey: Guid(48e196c36363e814bad43a44c92dc11b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Hovl Studio/Magic effects pack/Prefabs/Sparks/Sparks explode pink.prefab using Guid(48e196c36363e814bad43a44c92dc11b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f0680a1b705f9da8e98d096d7770386c') in 0.0356723 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Hovl Studio/Magic effects pack/Prefabs/Sparks/Sparks flashing blue.prefab
+  artifactKey: Guid(fb66a85d95aa25e439cb3c7792564804) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Hovl Studio/Magic effects pack/Prefabs/Sparks/Sparks flashing blue.prefab using Guid(fb66a85d95aa25e439cb3c7792564804) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6787df6cf23424f4a22ce76a1b5defa9') in 0.042263 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Hovl Studio/Magic effects pack/Textures/TechCircle.png
+  artifactKey: Guid(f49c2983d1fe900459a7d5e3d29317a3) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Hovl Studio/Magic effects pack/Textures/TechCircle.png using Guid(f49c2983d1fe900459a7d5e3d29317a3) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7b72ca99ede13be202d4fc7e4a4bd2e3') in 0.0187939 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
