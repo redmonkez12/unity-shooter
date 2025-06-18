@@ -1,8 +1,11 @@
+using Unity.Mathematics;
 using UnityEngine;
 using UnityEngine.AI;
 
 public class Minion : MonoBehaviour
 {
+    public float turnSpeed;
+
     [Header("Idle data")]
     public float idleTime;
 
@@ -12,6 +15,8 @@ public class Minion : MonoBehaviour
     [SerializeField] private Transform[] patrolPoints;
     private int currentPatrolIndex;
 
+    public Animator anim;
+
     public NavMeshAgent agent { get; private set; }
 
     public MinionStateMachine stateMachine { get; set; }
@@ -19,8 +24,8 @@ public class Minion : MonoBehaviour
     protected virtual void Awake()
     {
         stateMachine = new MinionStateMachine();
-
         agent = GetComponent<NavMeshAgent>();
+        anim = GetComponentInChildren<Animator>();
     }
 
     protected virtual void Start()
@@ -55,4 +60,14 @@ public class Minion : MonoBehaviour
         }
     }
 
+    public Quaternion FaceTarget(Vector3 target)
+    {
+        Quaternion targetRotation = Quaternion.LookRotation(target - transform.position);
+
+        Vector3 currenEulerAngles = transform.rotation.eulerAngles;
+
+        float yRotation = Mathf.LerpAngle(currenEulerAngles.y, targetRotation.eulerAngles.y, turnSpeed * Time.deltaTime);
+
+        return Quaternion.Euler(currenEulerAngles.x, yRotation, currenEulerAngles.z);
+    }
 }

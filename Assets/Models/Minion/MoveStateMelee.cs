@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.AI;
 
 public class MoveStateMelee : MinionState
 {
@@ -15,6 +16,8 @@ public class MoveStateMelee : MinionState
         base.Enter();
 
         destination = minion.GetPatrolDestination();
+
+        minion.agent.SetDestination(destination);
     }
 
     public override void Exit()
@@ -26,11 +29,33 @@ public class MoveStateMelee : MinionState
     {
         base.Update();
 
-        minion.agent.SetDestination(destination);
+        minion.transform.rotation = minion.FaceTarget(GetNextPathPoint());
 
-        if (minion.agent.remainingDistance <= 0)
+
+        if (minion.agent.remainingDistance <= minion.agent.stoppingDistance + 0.05f)
         {
             stateMachine.ChangeState(minion.idleState);
         }
+    }
+
+    public Vector3 GetNextPathPoint()
+    {
+        NavMeshAgent agent = minion.agent;
+        NavMeshPath path = agent.path;
+
+        if (path.corners.Length < 2)
+        {
+            return agent.destination;
+        }
+
+        for (int i = 0; i < path.corners.Length; i++)
+        {
+            if (Vector3.Distance(agent.transform.position, path.corners[i]) < 1)
+            {
+                return path.corners[i];
+            }
+        }
+
+        return agent.destination;
     }
 }

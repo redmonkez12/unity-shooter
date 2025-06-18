@@ -55,6 +55,7 @@
     <Compile Include="Assets\Models\Minion\IdleStateMelee.cs" />
     <Compile Include="Assets\Scripts\Player\PlayerWeaponController.cs" />
     <Compile Include="Assets\Models\Minion\Minion.cs" />
+    <Compile Include="Assets\Models\Minion\DeadStateMelee.cs" />
     <Compile Include="Assets\Scripts\ItemPickup.cs" />
     <Compile Include="Assets\Scripts\Player\PlayerAim.cs" />
     <Compile Include="Assets\Scripts\TurretController.cs" />

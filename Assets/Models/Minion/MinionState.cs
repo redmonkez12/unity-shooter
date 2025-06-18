@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class MinionState
 {
-    protected Minion minionBase;
+    public Minion minionBase;
     protected MinionStateMachine stateMachine;
 
     protected string animBoolName;
@@ -18,16 +18,16 @@ public class MinionState
 
     public virtual void Enter()
     {
-
+        minionBase.anim.SetBool(animBoolName, true);
     }
 
     public virtual void Update()
     {
         stateTimer -= Time.deltaTime;
     }
-    
-     public virtual void Exit()
-    { 
 
+    public virtual void Exit()
+    {
+        minionBase.anim.SetBool(animBoolName, false);
     }
 }
