@@ -48,12 +48,20 @@
     <Analyzer Include="E:\Unity\6000.1.5f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.UIToolkit.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Models\Minion\MinionState.cs" />
     <Compile Include="Assets\Scripts\Player\PlayerAnimationEvents.cs" />
     <Compile Include="Assets\Scripts\Target.cs" />
+    <Compile Include="Assets\Scripts\MinionMove.cs" />
+    <Compile Include="Assets\Models\Minion\IdleStateMelee.cs" />
     <Compile Include="Assets\Scripts\Player\PlayerWeaponController.cs" />
+    <Compile Include="Assets\Models\Minion\Minion.cs" />
     <Compile Include="Assets\Scripts\ItemPickup.cs" />
     <Compile Include="Assets\Scripts\Player\PlayerAim.cs" />
+    <Compile Include="Assets\Scripts\TurretController.cs" />
+    <Compile Include="Assets\Models\Minion\MinionMelee.cs" />
+    <Compile Include="Assets\Models\Minion\MinionStateMachine.cs" />
     <Compile Include="Assets\Scripts\Player\PlayerMovement.cs" />
+    <Compile Include="Assets\Scripts\TurretShooting.cs" />
     <Compile Include="Assets\Scripts\LeftHandTargetTransform.cs" />
     <Compile Include="Assets\Scripts\WeaponVisualController.cs" />
     <Compile Include="Assets\Scripts\Bullet.cs" />
@@ -61,6 +69,7 @@
     <Compile Include="Assets\InputManager\PlayerControls.cs" />
     <Compile Include="Assets\Scripts\Player\Player.cs" />
     <Compile Include="Assets\Scripts\Weapon.cs" />
+    <Compile Include="Assets\Models\Minion\MoveStateMelee.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />

@@ -25,7 +25,7 @@ public class PlayerWeaponController : MonoBehaviour
         player = GetComponent<Player>();
         AssignInputEvents();
 
-        currentWeapon.ammo = currentWeapon.maxAmmo;
+        currentWeapon.bulletsInMagazine = currentWeapon.magazineCapacity;
     }
 
     private void AssignInputEvents()
@@ -38,12 +38,21 @@ public class PlayerWeaponController : MonoBehaviour
         controls.Character.EquipSlot2.performed += context => EquipWeapon(1);
         controls.Character.DropCurrentWeapon.performed += context => DropWeapon();
 
+        controls.Character.Reload.performed += context =>
+        {
+            if (currentWeapon.CanReload())
+            { 
+                player.weaponVisuals.PlayReloadAnimation();
+            }
+        };
     }
 
     private void EquipWeapon(int i)
     {
         currentWeapon = weaponSlots[i];
     }
+
+    public Weapon CurrentWeapon() => currentWeapon;
 
     public void PickupWeapon(Weapon newWeapon)
     {
@@ -67,13 +76,13 @@ public class PlayerWeaponController : MonoBehaviour
 
     private void Shoot()
     {
-        if (currentWeapon.ammo <= 0)
+        Debug.Log(currentWeapon.CanShoot());
+        Debug.Log("fuck");
+
+        if (currentWeapon.CanShoot() == false)
         {
             return;
         }
-
-        currentWeapon.ammo--;
-
 
         GameObject newBullet = Instantiate(bulletPrefab, gunPoint.position, Quaternion.LookRotation(gunPoint.forward));
 

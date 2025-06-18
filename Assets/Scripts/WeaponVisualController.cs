@@ -55,12 +55,22 @@ public class WeaponVisualController : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.R) && busyGrabbingWeapon == false)
         {
-            anim.SetTrigger("Reload");
+            PlayReloadAnimation();
             PauseRig();
         }
 
         UpdateRigWeight();
         UpdateLeftHandIKWeight();
+    }
+
+    public void PlayReloadAnimation()
+    {
+        if (busyGrabbingWeapon)
+        {
+            return;
+        }
+
+        anim.SetTrigger("Reload");
     }
 
     private void UpdateRigWeight()
